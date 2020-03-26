@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VideoExtensor">
+        <attr name="videoOrigin" format="string"/>
+        <attr name="is_loop" format="boolean"/>
+        <attr name="volume" format="float"/>
+        <attr name="gravity" format="enum">
+            <enum name="start" value="0"/>
+            <enum name="end" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="none" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
